@@ -1,0 +1,32 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Streamlit / local run artifacts ----
+.streamlit/secrets.toml
+streamlit_log.txt
+streamlit_log.txt.err
+streamlit_ready.txt
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- Assistant workspace (local notes, not part of the app) ----
+.workbuddy/
+
+# ---- Local-only data (never publish patient-level data) ----
+*.csv
+!requirements.csv
+data/
+数据/

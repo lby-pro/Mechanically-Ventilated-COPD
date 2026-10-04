@@ -1,0 +1,13 @@
+# FI-Lab & COPD In-Hospital Mortality Prediction App
+# Versions pinned to match the model's original training environment.
+# statsmodels is REQUIRED: logistic_model.pkl is a statsmodels Logit result object.
+
+streamlit==1.55.0
+statsmodels==0.14.6
+scikit-learn==1.7.1
+pandas==2.3.1
+numpy==2.3.2
+scipy==1.16.0
+matplotlib==3.10.8
+shap==0.51.0
+patsy==1.0.2
